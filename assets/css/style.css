@@ -1,0 +1,46 @@
+* { 
+    font-family: Helvetica, Arial, sans-serif; 
+}   
+body{
+    margin:0;
+    color:#fff;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header{
+    display: flex;
+    height:3vw;
+}
+.img-pap-airport{
+    width:2vw;
+    height:2vw;
+    padding:8px;
+}
+.header-title{
+    width:95%;
+    height:2vw;
+    margin:0px;
+    padding:8px;
+    font-size:2vw;
+}
+.info-tab{
+    font-size:1vw;
+    width:30%;
+    height:auto;
+    text-align: center;
+    margin:auto;
+    border:1px solid yellow;
+    padding: 1%;
+    margin:2%;
+}
+.logo-airlines{
+    width:40%;
+    height:auto;
+    padding:8px;
+}
+
+.row{
+    display:flex;
+    flex-direction: column;
+}

@@ -1,0 +1,161 @@
+* { 
+    font-family:"Open Sans", sans-serif;; 
+    color:white;
+}   
+body{
+    overflow: hidden;
+    margin:0;
+    background: url(../img/1.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.ex-body{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #428bca, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #428bca, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header{
+    display: flex;
+    height:100%;
+    background-color: #2b3643;
+}
+.aero_img {
+
+}
+h1 {
+    padding-top: 1vw;
+}
+.img-pap-airport{
+    width:4vw;
+    height:4vw;
+    padding:8px;
+}
+.header-title{
+    width:95%;
+    height:2vw;
+    margin:0px;
+    padding:8px;
+    font-size:2vw;
+}
+
+.info-tab h4, .info-tab h1{
+    font-size: 2vw !important;
+}
+
+.info-tab{
+    background: url(/assets/img/bg-white-lock.png) repeat;
+    border-radius: 20px;
+    width: 100%;
+    /* height:30vh; */
+    text-align: center;
+    margin:auto;
+    opacity:0.75;
+    border:3px solid rgba(199, 199, 199, 0); 
+    /*border: 5px solid red;*/
+    
+    /*border-bottom: 13px solid #ecf0f1; */
+
+}
+.info-logo {
+    display: flex;
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 8px;
+}
+
+div.row{
+    width:100%;
+    margin-bottom: 2%!important;
+    margin:auto;
+}
+
+.tfoot {
+    background-color: #2b3643;
+    height: 3%;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+    vertical-align: super;
+    display:flex;
+}
+
+.footer-title {
+    width: 70%;
+    color:white;
+    text-align: center;
+    font-size: 1rem !important;
+}
+
+.footer-right {
+    color:white;
+    width: 30%;
+    padding: 0 1%;
+    font-size: 1rem !important;
+}
+.aero_img { 
+left: 0;
+height: auto;
+}
+/*For Firefox browser*/
+.firefox #airline_name {
+   font-size: calc(1em + 3vw) !important; 
+}
+/*For Chrome browser*/
+.chrome #airline_name {
+    font-size: calc(1em + 3vw) !important; 
+}
+#airline_name,#vuelo {
+font-size: 5vw !important;
+font-weight: 800;
+}
+#aero_img {
+    width: 100%;
+    margin: auto;
+    /* display: flex; */
+    /* height: auto; */
+    /* border: none; */
+    /* max-width: 100%; */
+    /* vertical-align: middle; */
+    /* object-fit: cover;*/
+    }
+#city_img {
+   /* position: fixed;*/
+    left: 0;
+    width: 10%;
+}
+#carousel_tag { 
+    font-size: 3vw !important;
+    padding-top: 0;
+}
+#carrousel { 
+    padding-top: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14.5vw !important;
+    color: crimson;
+}
+#city_weather{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw !important;
+}
+#time_weather{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5vw !important;
+}
+#forecast {
+    text-align: center;
+    font-weight: bold;
+    margin-left: 0%;
+}
+#icon_weather {
+    width: 10%;
+    margin-bottom: 10%;
+}
+#origen {
+   font-size: 5vw !important;
+   font-weight: 800;
+}
